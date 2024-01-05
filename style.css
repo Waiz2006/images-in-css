@@ -1,0 +1,76 @@
+/* size of images */
+/* img{
+    width: 300px;
+    height: auto;
+} */
+
+/* aligning images */
+/* img{ */
+    /* margin-left: 500px; */
+    /* float: right; */
+/* } */
+
+/* centering images */
+/* img{
+    display: block ;
+    margin:auto; 
+    border: 2px solid blue;
+    
+} */
+
+/* background images */
+/* body{
+    background-image: url(./image/5my3wreurp481.png);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    background-attachment: fixed    ;
+    } */
+
+    /* background position */
+    /* body{
+        background-image: url(./image/motorcycle-8100510_640.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    } */
+
+    /* gradients */
+    /* body{
+        background-image: linear-gradient(blue, pink ,purple);
+        background-repeat: no-repeat;
+        height: 100vh;
+    } */
+
+    /* linearGradient */
+    /* #gradient-container{
+        /* border: 1px solid black;
+        background-image: linear-gradient(to bottom right, blue,pink,purple);
+        width: 500px;
+        padding: 10px;
+        margin: auto; */
+    /* } */ 
+
+    /* radialGradient */
+    /* #gradient-container{
+        border: 1px solid black;
+        background-image: radial-gradient( blue,pink,purple);
+        width: 500px;
+        padding: 10px;
+        margin: auto;
+    } */
+
+    /* conic gradient */
+    #gradient-container{
+        border: 1px solid black;
+        background-image:conic-gradient(blue, purple, pink, wheat, white);
+        width: 500px;
+        height: 500px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 50%;
+    }
